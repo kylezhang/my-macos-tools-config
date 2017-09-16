@@ -1,0 +1,54 @@
+{
+    // 控制字体大小。
+    "editor.fontSize": 14,
+    "editor.glyphMargin": true,
+    "editor.tabSize": 2,
+    // 控制编辑器是否应呈现空白字符
+    "editor.renderWhitespace": "all",
+    // 控制光标动画样式，可能的值为 "blink"、"smooth"、"phase"、"expand" 和 "solid"
+    "editor.cursorBlinking": "expand",
+    // 通过使用鼠标滚轮同时按住 Ctrl 可缩放编辑器的字体
+    "editor.mouseWheelZoom": true,
+    // 启用字体连字
+    "editor.fontLigatures": true,
+    // 控制编辑器是否应呈现控制字符
+    "editor.renderControlCharacters": true,
+    // 控制编辑器是否应呈现缩进参考线
+    "editor.renderIndentGuides": true,
+     // 控制是否显示 minimap
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Quiet Light",
+    "extensions.ignoreRecommendations": true,
+    "fileHeaderComment.template":{
+        "*":[
+            "${commentbegin}",
+            "${commentprefix} Created on ${date}",
+            "${commentprefix} Copyright (c) ${year} AdMaster",
+            "${commentprefix} author ZhangKai",
+            "${commentprefix} file description: ",
+            "${commentend}",
+            "'use strict';"
+        ]
+    },
+    "editor.fontFamily": "Consolas",
+    "files.autoSave": "onWindowChange",
+    "editor.cursorStyle": "line",
+    "editor.smoothScrolling": true,
+    "editor.find.autoFindInSelection": true,
+    "editor.formatOnType": true,
+    "editor.renderLineHighlight": "all",
+    "editor.showFoldingControls": "always",
+    "editor.accessibilitySupport": "auto",
+    "window.nativeTabs": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.hotExit": "onExitAndWindowClose",
+    "files.useExperimentalFileWatcher": true,
+    "markdown.previewFrontMatter": "show",
+    "markdown.preview.breaks": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.openExplorerOnEnd": true,
+    "git.enableCommitSigning": true
+}
